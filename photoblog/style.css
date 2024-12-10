@@ -1,0 +1,68 @@
+
+:root{
+    --color: #2196F3;
+    --black: #212121;
+    --gray: #757575;
+    --backround-color: #2F303A;
+    --white: #FFFFFF;
+    --blue:  #2196F3;
+
+
+}
+.navigation{
+    color: var(--black);
+}
+.navigation-list :hover{
+    color: var(--blue);
+}
+a[href="/Конткати"]{
+    color: var(--black);
+}
+a[href="tel:+38 096 111 11 11"]{
+    color: var(--gray);
+}
+.nav-site{
+    background-color: var(--backround-color);
+}
+.title{
+    color: var(--white);
+}
+.button{
+ background-color: var(--blue);
+ color: var(--white);
+}
+
+.text{
+    color: var(--gray);
+}
+footer{
+    background-color: var(--backround-color);
+}
+a[href="info@devstudio.com"]{
+   color: var(--gray);
+}
+.address{
+    color: var(--white);
+}
+.address{
+    color: var(--white);
+}
+.gmail[href="info@devstudio.com"]{
+    color: var(--blue);
+}
+
+body{
+    font-family: "Roboto";
+}
+a[href="/WebStudio"]{
+    font-family: "Raleway";
+}
+.logotype{
+    font-family: "Raleway";
+}
+a[href="info@example.com"]{
+    color: var(--gray);
+}
+ul{
+    list-style: none;
+}
