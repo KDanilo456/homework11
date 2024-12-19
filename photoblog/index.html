@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/*! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */*,::after,::before{box-sizing:border-box}html{font-family:system-ui,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';line-height:1.15;-webkit-text-size-adjust:100%;tab-size:4}body{margin:0}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-color:currentcolor}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}">
 </head>
 <body>
-    <header>
+    <header class="container">
         <img class="logotype" src="/img/WebStudio2.png" alt="">
         <ul class="navigation-list">
             <li><a class="navigation" href="/Студія">Студія</a></li>
@@ -22,40 +22,44 @@
     
             <ul class="nav-site">
             <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="button">Замовити послугу</button>
+            <li class="nav-button"><button class="button">Замовити послугу</button></li>
              </ul>
-            <p><li>
-                <h1>УВАГА ДО ДЕТАЛЕЙ</h1>
-                <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                <li class="block">
+                <h1 class="nav-title">УВАГА ДО ДЕТАЛЕЙ</h1>
+                <p class="text">
+                    Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+                </p>
             </li>
-            <li>
-                <h1>ПУНКТУАЛЬНІСТЬ</h1>
+            <li class="block">
+                <h1 class="nav-title">ПУНКТУАЛЬНІСТЬ</h1>
                 <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
-            <li>
-                <h1>ПЛАНУВАННЯ</h1>
+            <li class="block">
+                <h1 class="nav-title">ПЛАНУВАННЯ</h1>
                 <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li>
-                <h1>СУЧАСНІ ТЕХНОЛОГІЇ</h1>
+            <li class="block">
+                <h1 class="nav-title">СУЧАСНІ ТЕХНОЛОГІЇ</h1>
                 <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
         </ul>
 
     </header>
     <main>
-        
-        <ul>
-            <h1>Чим ми займаємося</h1>
-            <li><img src="/img/computer.jpg" alt="">
-        
+      
+        <ul class="container">
+           <li>
+            <h1 class="block">Чим ми займаємося</h1>
+            </li>
+            <li class="picture">
+                <img src="/img/computer.jpg" alt="">       
             </li>
             <li><img src="/img/phone.png" alt=""></li>
             <li><img src="/img/paint.png" alt=""></li>
         </ul>
-        <ul>
-            <h1>Наша команда</h1>
-            <li><img src="/img/glases.jpg" alt="">
+        <ul class="container">
+            <li class="team"><h1>Наша команда</h1></li> 
+            <li class="picture"><img src="/img/glases.jpg" alt="">
                 <h2>Ігор Дем'яненко</h2>
                 <p class="text">Product Designer</p>
             </li>
@@ -65,7 +69,7 @@
                 <p class="text">Frontend Developer</p>
             </li>
             <li><img src="/img/boy.jpg" alt="">
-                <h1>Микола Тарасов</h1>
+                <h2>Микола Тарасов</h2>
                 <p class="text">Marketing</p>
             </li>
             <li>
@@ -75,19 +79,21 @@
             </li>
         </ul>
     </main>
-    <footer>
-        <img class="logotype" src="/img/WebStudio1.png" alt="">
-        <ul>
-            <li>
+    <footer class="container">
+        
+        <ul class="nav-footer">
+            <img class="logotype" id="logotype-nav-footer" src="/img/WebStudio1.png" alt="">
+            <li class="address">
                 <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
             </li>
-            <li  >
-                <address ><a href="info@devstudio.com">info@devstudio.com</a></address>
+            <li>
+                <address class="gmail" id="gmail-nav-footer" ><a href="info@devstudio.com">info@devstudio.com</a></address>
             </li>
             <li>
-               <address> <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></address>
+               <address class="tel"> <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></address>
             </li>
         </ul>
-    </footer>
+        
+    </footer> 
 </body>
 </html>

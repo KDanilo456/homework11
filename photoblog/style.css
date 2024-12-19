@@ -66,3 +66,66 @@ a[href="info@example.com"]{
 ul{
     list-style: none;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navigation-list{
+    padding-bottom: 24px;
+}
+.nav-site{
+    padding-top: 208px;
+}
+.title{
+    padding-bottom: 41px;
+}
+.button{
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.nav-button{
+    padding-bottom: 198px;
+}
+.block{
+    padding-top: 94px;
+}
+.nav-title{
+    padding-bottom: 17px;
+}
+.picture{
+    padding-top: 50px;
+}
+.team{
+    padding-top: 185px;
+}
+h2{
+    padding-top: 28px;
+    padding-bottom: 10px;
+}
+.nav-buttons{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.project{
+    padding-top: 26px;
+    padding-bottom: 16px;
+}
+#text{
+    padding-bottom: 16px;
+}
+#logotype-nav-footer{
+    padding-top: 62px;
+    padding-bottom: 25px;
+}
+.address{
+    padding-bottom: 15px;
+}
+#gmail-nav-footer{
+    padding-bottom: 15px;
+}
+.tel{
+    padding-bottom: 60px;
+}

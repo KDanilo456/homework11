@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/*! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */*,::after,::before{box-sizing:border-box}html{font-family:system-ui,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';line-height:1.15;-webkit-text-size-adjust:100%;tab-size:4}body{margin:0}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-color:currentcolor}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}">
 </head>
 <body>
-    <header>
+    <header class="container">
         <img class="logotype" src="/img/WebStudio2.png" alt="">
         <ul class="navigation-list">
             <li><a class="navigation" href="/Студія">Студія</a></li>
@@ -20,8 +20,8 @@
             <address><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></address>
         </ul>
     </header>
-    <main>
-        <ul>
+    <main class="container">
+        <ul class="nav-buttons">
             <li><img src="/img/all.png" alt=""></li>
             <li><img src="/img/cites.png" alt=""></li>
             <li><img src="/img/programes.png" alt=""></li>
@@ -31,57 +31,64 @@
         <ul>
             <li>
                 <img src="/img/notebook.png" alt="">
-                <h1>Технокряк</h1>
+                <h1 class="project">Технокряк</h1>
                 <p class="text">Веб-сайт</p>
             </li>
             <li>
                 <img src="/img/basketball.png" alt="">
-                <h1>Постер New Orlean vs Golden Star</h1>
+                <h1 class="project">Постер New Orlean vs Golden Star</h1>
                 <p class="text">Дизайн</p>
             </li>
             <li>
                 <img src="/img/resturant.png" alt="">
-                <h1>Ресторан Seafood</h1>
+                <h1 class="project">Ресторан Seafood</h1>
                 <p class="text">Додаток</p>
             </li>
             <li>
                 <img src="/img/headphone.png" alt="">
-                <h1>Проєкт Prime</h1>
+                <h1 class="project">Проєкт Prime</h1>
                 <p class="text">Маркетинг</p>
             </li>
             <li>
                 <img src="/img/blocks.png" alt="">
-                <h1>Проєкт Boxes</h1>
+                <h1 class="project">Проєкт Boxes</h1>
                 <p class="text">Додаток</p>
             </li>
             <li>
                 <img src="/img/computer.png" alt="">
-                <h1>Inspiration has no Borders</h1>
+                <h1 class="project">Inspiration has no Borders</h1>
                 <p class="text">Веб-сайт</p>
             </li>
             <li>
                 <img src="/img/book.png" alt="">
-                <h1>Видання Limited Edition</h1>
+                <h1 class="project">Видання Limited Edition</h1>
                 <p class="text">Дизайн</p>
             </li>
             <li>
                 <img src="/img/labeltag.png" alt="">
-                <h1>Проєкт LAB</h1>
+                <h1 class="project">Проєкт LAB</h1>
                 <p class="text">Маркетинг</p>
             </li>
             <li>
                 <img src="/img/work.png" alt="">
-                <h1>Growing Business</h1>
-                <p class="text">Додаток</p>
+                <h1 class="project">Growing Business</h1>
+                <p class="text" id="text">Додаток</p>
             </li>
         </ul>
     </main>
-    <footer>
-        <img class="logotype" src="/img/WebStudio.png" alt="">
-        <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
-        <address><a href="info@example.com">info@example.com</a></address>
-        <address><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></address>
-       
+    <footer class="container">
+        <img class="logotype" id="logotype-nav-footer" src="/img/WebStudio.png" alt="">
+        <ul class="nav-footer">
+        <li>
+            <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
+        </li>
+        <li>
+            <address id="gmail-nav-footer"><a href="info@example.com">info@example.com</a></address>
+        </li>
+        <li>
+            <address class="tel"><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></address>
+        </li>
+    </ul>
     </footer>
 </body>
 </html>
